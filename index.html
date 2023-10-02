@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raditya Pradana Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fontawesome.com/kits/25a66357ef/setup">
+    <script src="https://kit.fontawesome.com/25a66357ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="gambar/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Selamat datang!</p>
+            <h1>Hai, aku Raditya Pradana<br>Seorang siswa RPL di<br> SMKN 1 Denpasar</h1>
+        </div>
+    </div>
+</div>
+<!-----------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="gambar/11. Raditya.jpg">
+            </div>
+            <div class="about-col-2">
+                <div class="about-text-container">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Nama saya I Gusti Agung Gde Raditya Pradana, saya lahir pada 12 Juli 2007 di Denpasar,
+                        Saya sekarang sekolah di SMKN 1 Denpasar, saya mengambil jurusan RPL dan saya sekarang
+                        menginjak kelas 11. Saya membuat website ini untuk tugas sekolah saya dan juga menjadi 
+                        salah satu portofolio saya. Saya harap bisa bekerja sama dengan anda dengan baik.
+                    </p>
+                </div>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Hobby')">Hobby</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Website Developing</span><br>Web Designing</li>
+                        <li><span>Games</span><br>VALORANT</li>
+                        <li><span>Language</span><br>English & Bahasa Indonesia</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>SDN 24 Dauh Puri</span><br>2013-2019</li>
+                        <li><span>SMPK 1 Harapan</span><br>2019-2022</li>
+                        <li><span>SMKN 1 Denpasar</span><br>2022-Now</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Hobby">
+                    <ul>
+                        <li><span>Sports</span><br>Futsal</li>
+                        <li><span>Gaming</span><br>Valorant, CSGO, PES, GTA</li>
+                        <li><span>Others</span><br>Eating</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!---services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Programming</h2>
+                    <p>Saya telah berpengalaman membuat web,
+                        ilmu yang saya dapatkan sebagian besar dari internet dan sekolah
+                    </p>
+                 
+                </div>
+            
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Designing</h2>
+                    <p>Saya bisa melakukan design web sesuai keinginan anda
+                    </p>
+                    
+                
+                </div>
+            
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>App Development</h2>
+                    <p>Saya telah mencoba membuat aplikasi walaupun hanya menggunakan MIT App
+                    </p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----Project------->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <p>Saya telah membuat aplikasi dari mit tentang sejarah internet <br> 
+                web yang anda datangi sekarang adalah web portofolio saya <br> 
+                Saya bisa menggunakan css untuk memperindah web anda</p>
+            <div class="work-list">
+                <div class="work">
+                    <img src="gambar/internetku.png">
+                    <div class="layer">
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="gambar/portof.png">
+                    <div class="layer">
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="gambar/css.png">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left"></div>
+                <h1 class="sub-title">Contact me </h1>
+                <center>
+                <p><i class="fa-solid fa-paper-plane"></i> radityapradana213@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +62 822 3730 4726</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/raditya.pradana.50596?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/raditya_prdn?igshid=NzZlODBkYWE4Ng=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </center>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg">hello</span> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Raditya Pradana. Dibuat dengan ❤️ dan dengan penuh rasa ngantuk </p>
+    </div>
+
+
+            
+                        
+                        
+                        
+        </div>
+    </div>
+    <script>
+
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+          
+          function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+          }
+
+
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyxSbJZydvA4le9qWTnepPKpfeMUKl7f3UFlbIf5GeyCF3LuRlU05iN6nFH5JR-j1T3/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    
+</body>
+</html>
